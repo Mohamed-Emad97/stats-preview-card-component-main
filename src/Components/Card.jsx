@@ -6,7 +6,7 @@ export default function Card() {
     <>
         <section id="card">
             <main className='center p-5'>
-              <div className="content d-flex gap-3 rounded-3 flex-lg-row flex-md-column-reverse flex-sm-column-reverse flex-column-reverse">
+              <div className="content d-flex rounded-3 flex-lg-row flex-md-column-reverse flex-sm-column-reverse flex-column-reverse">
                 <div className="cardContent p-5">
                   <h1>
                     Get <span className='purple'>insights</span> that help 
@@ -33,7 +33,7 @@ export default function Card() {
                   </div>
                 </div>
                 <div className="img">
-                  <img src={pic} alt="" className="w-100 h-100" />
+                  <img src={pic} alt="" className="w-100" />
                 </div>
               </div>
             </main>
